@@ -31,7 +31,7 @@ node server.js
 ```
 3. If you're running ngrok run it to connect to port 3000
 ```
-ngrok http 3000
+ngrok http 3000 -host-header="localhost:3000"
 ```
 *Note:* You'll want to use this address from ngrok in the `FORGE_CALLBACK_HOST` environment variable
 4.  Open a web browser and go to:
